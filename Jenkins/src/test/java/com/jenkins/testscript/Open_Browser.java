@@ -18,7 +18,7 @@ public class Open_Browser {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.instagram.com/");
 		Reporter.log(driver.getTitle(),true);
-		driver.quit();
+
 	}
 
 }
